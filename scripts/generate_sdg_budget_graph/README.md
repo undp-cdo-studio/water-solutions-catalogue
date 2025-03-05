@@ -12,7 +12,7 @@ This module creates visually appealing bar charts displaying the distribution of
 - Configurable styling and proportions
 
 ## Example Visualization
-![SDG Budget Distribution](../../data/plots/sdg_distribution_water_focused_2018-24.png)
+![SDG Budget Distribution](../../assets/sdg_budget_graph.png)
 
 ## Input Data
 The module reads processed budget data from:
