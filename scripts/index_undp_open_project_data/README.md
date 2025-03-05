@@ -28,32 +28,6 @@ The script generates a CSV file with the following structure:
 - Focus areas and markers
 - Project start and end dates
 
-## Usage
-The script can be run in several ways using the Taskfile:
-
-### Basic Indexing
-```
-task index
-```
-This will fetch all projects from 2023 onwards and process them.
-
-### Test Mode
-```
-task index-test
-```
-This will process only 30 projects for testing purposes.
-
-### Custom Start Year
-```
-task index-custom START_YEAR=2022
-```
-This will process projects from 2022 onwards.
-
-### Specific Project
-```
-task index-project PROJECT_ID=01000282
-```
-This will process only the specified project ID.
 
 ## Command-line Arguments
 The script accepts the following command-line arguments:

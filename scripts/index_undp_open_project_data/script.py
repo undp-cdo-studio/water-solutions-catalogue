@@ -219,7 +219,7 @@ def main():
 
     # Set output file name
     if not output_file:
-        output_file = "scripts/index_undp_open_project_data/water_projects_analysis.csv"
+        output_file = "data/water_projects_analysis.csv"
 
     # Check if output file exists and load existing data
     existing_data = {}
