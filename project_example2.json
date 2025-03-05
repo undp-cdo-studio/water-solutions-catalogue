@@ -1,0 +1,170 @@
+{
+  "project_descr": "Addressing the impacts of the energy crisis in the Republic of Moldova: Initiating solutions toward energy security and energy poverty",
+  "fiscal_year": [
+    2022,
+    2023,
+    2024
+  ],
+  "end": "2024-08-23",
+  "region_id": "RBEC",
+  "operating_unit_id": "MDA",
+  "operating_unit_email": "registry.md@undp.org",
+  "budget": 16614423.0,
+  "expenditure": 13409538.0,
+  "start": "2022-02-24",
+  "document_name": [
+    [
+      "Annex I_Description of Action Energy Security",
+      "Annual budget 2023-24_00142737",
+      "Purchase Order Summary",
+      "Project Results",
+      "Energy security: Initiating solutions",
+      "Energy security: Initiating solutions",
+      "Activity Web Page",
+      "EU-FPI_Work Plan_2022-2023",
+      "Evaluation Report"
+    ],
+    [
+      "https://undpngddlsprod01.blob.core.windows.net/pdc/Annex I_Description of Action_NDICI CRISIS FPI_2022_432-675.pdf",
+      "https://undpngddlsprod01.blob.core.windows.net/awp/00142737.pdf",
+      "http://open.undp.org/projects/00142737/po",
+      "http://open.undp.org/projects/00142737/results",
+      "http://procurement-notices.undp.org/view_notice.cfm?notice_id=92696",
+      "http://procurement-notices.undp.org/view_notice.cfm?notice_id=92740",
+      "http://open.undp.org/projects/00142737",
+      "https://undpngddlsprod01.blob.core.windows.net/pdc/00142737 EU-FPI_Work Plan_Board_approved.pdf",
+      "https://undpngddlsprod01.blob.core.windows.net/pdc/00142737-PPMEvaluation Report of EUFPI_UNDP Project_August 2024.pdf"
+    ],
+    [
+      "pdf",
+      "pdf",
+      "html",
+      "html",
+      "html",
+      "html",
+      "html",
+      "pdf",
+      "pdf"
+    ]
+  ],
+  "project_id": "00142737",
+  "project_title": "Energy security Initiating solutions",
+  "outputs": [
+    {
+      "crs": "23111",
+      "output_descr": "Addressing the impacts of the energy crisis in the Republic of Moldova: Initiating solutions toward energy security and energy poverty",
+      "output_id": "00130906",
+      "award_id": "00142737",
+      "output_title": "Solutions twd Energy security-UNDP-MDA-00130906",
+      "crs_descr": "",
+      "donor_id": [
+        "010159"
+      ],
+      "disbursement": [],
+      "focus_area": "17",
+      "gender_descr": "Gender Equality",
+      "budget": [
+        9381503.0,
+        3979520.0,
+        3253400.0
+      ],
+      "fiscal_year": [
+        2024,
+        2023,
+        2022
+      ],
+      "gender_id": 1,
+      "expenditure": [
+        10145289.0,
+        2683745.0,
+        580504.0
+      ],
+      "donor_short": [
+        "EUCOMM"
+      ],
+      "donor_name": [
+        "EUROPEAN COMMISSION"
+      ],
+      "focus_area_descr": "Eradicate poverty in all its forms and dimensions",
+      "markers": [
+        {
+          "marker": "Hows",
+          "marker_type": [
+            "Capacity Development / Technical Assistance",
+            "Direct support / Service Delivery",
+            "Policy Advice"
+          ]
+        },
+        {
+          "marker": "Partner",
+          "marker_type": [
+            "National government",
+            "Private sector",
+            "Research Institutions / Universities"
+          ]
+        },
+        {
+          "marker": "Whos",
+          "marker_type": [
+            "People living in rural areas",
+            "People living in urban areas",
+            "People living under the national poverty line"
+          ]
+        },
+        {
+          "marker": "Digital",
+          "marker_type": [
+            "Output significantly enabled through digital technology"
+          ]
+        },
+        {
+          "marker": "OECD DAC Sector",
+          "marker_type": [
+            "230 - Energy"
+          ]
+        }
+      ],
+      "sdg": [
+        {
+          "id": "7",
+          "name": "Affordable and clean energy",
+          "budget": [
+            3253400.0,
+            3979520.0,
+            9381503.0
+          ],
+          "expenditure": [
+            580504.0,
+            2683745.0,
+            10145289.0
+          ],
+          "year": [
+            2022,
+            2023,
+            2024
+          ]
+        }
+      ]
+    }
+  ],
+  "operating_unit_website": "https://www.undp.org/moldova",
+  "inst_id": "001981",
+  "inst_descr": "United Nations Development Programme",
+  "inst_type_id": 40,
+  "iati_op_id": "MD",
+  "operating_unit": "Moldova, Republic of",
+  "subnational": [
+    {
+      "outputID": "00130906",
+      "output_locID": "00130906-1",
+      "name": "Chisinau",
+      "focus_area": "17",
+      "lat": "47.005560",
+      "type": "PPLC",
+      "lon": "28.857500",
+      "awardID": "00142737",
+      "precision": 2,
+      "focus_area_descr": "Eradicate poverty in all its forms and dimensions"
+    }
+  ]
+}

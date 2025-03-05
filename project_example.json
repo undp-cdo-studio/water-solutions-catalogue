@@ -1,0 +1,138 @@
+{
+  "project_descr": "The programme seeks to support the Federal and State Government response rapidly and urgently to the growing challenges of operationalizing an effective rights-based system of receiving, providing temporary care, processing and treatment of exits; supporting community-based social and economic reintegration initiatives, entrenching con-flict and crime prevention, transitional justice, a victim-centered approach, peacebuilding and sustainable peace in-terventions and catalysing release of weapons and removal of remnants of war/conflict.",
+  "fiscal_year": [
+    2023,
+    2024,
+    2025
+  ],
+  "end": "2028-10-30",
+  "region_id": "RBA",
+  "operating_unit_id": "NGA",
+  "operating_unit_email": "registry.ng@undp.org",
+  "budget": 11723409.0,
+  "expenditure": 2540104.0,
+  "start": "2023-10-12",
+  "document_name": [
+    [
+      "Activity Web Page",
+      "The UN Offer to Support the Federal and State Government in the Implementation of the Borno Model in the Northeast Nigeria",
+      "Annual budget 2023-24_01001377",
+      "Project Results"
+    ],
+    [
+      "http://open.undp.org/projects/01001377",
+      "https://undpngddlsprod01.blob.core.windows.net/pdc/01001377-PPMFully Signed Project Document for the One UN Offer in Support of the Borno Mode Oct 2023-6.pdf",
+      "https://undpngddlsprod01.blob.core.windows.net/awp/01001377.pdf",
+      "http://open.undp.org/projects/01001377/results"
+    ],
+    [
+      "html",
+      "pdf",
+      "pdf",
+      "html"
+    ]
+  ],
+  "project_id": "01001377",
+  "project_title": "The UN Offer Support to Borno Model in Northeast Nigeria",
+  "outputs": [
+    {
+      "crs": "15220",
+      "output_descr": "The programme seeks to support the Federal and State Government response rapidly and urgently to the growing challenges of operationalizing an effective rights-based system of receiving, providing temporary care, processing and treatment of exits; supporting community-based social and economic reintegration initiatives, entrenching con-flict and crime prevention, transitional justice, a victim-centered approach, peacebuilding and sustainable peace in-terventions and catalysing release of weapons",
+      "output_id": "01001377",
+      "award_id": "01001377",
+      "output_title": "The UN Offer Support to Borno Model in Northeast Nigeria",
+      "crs_descr": "",
+      "donor_id": [
+        "000117",
+        "000232",
+        "013645"
+      ],
+      "disbursement": [],
+      "focus_area": "23",
+      "gender_descr": "Gender Equality",
+      "budget": [
+        8422500.0,
+        2800934.0,
+        499975.0
+      ],
+      "fiscal_year": [
+        2025,
+        2024,
+        2023
+      ],
+      "gender_id": 1,
+      "expenditure": [
+        1936038.0,
+        604066.0,
+        0.0
+      ],
+      "donor_short": [
+        "GER",
+        "SWI",
+        "FCDO"
+      ],
+      "donor_name": [
+        "GOVERNMENT OF GERMANY",
+        "GOVERNMENT OF SWITZERLAND",
+        "Foreign,Commonwealth & Dev.Off."
+      ],
+      "focus_area_descr": "Building resilience",
+      "markers": [
+        {
+          "marker": "Digital",
+          "marker_type": [
+            "No digital technology utilized",
+            "Output partially enabled through digital technology"
+          ]
+        },
+        {
+          "marker": "OECD DAC Sector",
+          "marker_type": [
+            "152 - Conflict, Peace & Security"
+          ]
+        }
+      ],
+      "sdg": [
+        {
+          "id": "16",
+          "name": "Peace, justice, and strong institutions",
+          "budget": [
+            499975.0,
+            2800934.0,
+            8422500.0
+          ],
+          "expenditure": [
+            0.0,
+            604066.0,
+            1936038.0
+          ],
+          "year": [
+            2023,
+            2024,
+            2025
+          ]
+        }
+      ]
+    }
+  ],
+  "operating_unit_website": "https://www.undp.org/nigeria",
+  "inst_id": "001981",
+  "inst_descr": "UNDP",
+  "inst_type_id": 40,
+  "iati_op_id": "NG",
+  "operating_unit": "Nigeria",
+  "subnational": [
+    {
+      "outputID": "01001377",
+      "output_locID": "01001377-1",
+      "name": "Borno State",
+      "focus_area": "23",
+      "lat": "11.500000",
+      "type": "ADM1",
+      "lon": "13.000000",
+      "awardID": "01001377",
+      "precision": 1,
+      "focus_area_descr": "Building resilience"
+    }
+  ]
+}

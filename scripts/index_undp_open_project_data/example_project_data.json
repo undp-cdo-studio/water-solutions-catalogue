@@ -1,0 +1,212 @@
+{
+    "project_descr": "Pillar II: Local Peace Building and community resilienceThe project will build on accumulated experience and channels to civic actors and local communities; to scale up piloted interventions to achieve :a)\tMore civic engagement beyond services provision; guided with a thorough strategy to materialize the 3Ps: Participation; Protection and Promotion.b)\tThematic capacitation for local communities, authorities and civic actors and organizations; to take meaningful participation in policy and decision-making process.c)\tStrengthen core local institutions functions’ effectiveness and efficiency, including management, participatory and context sensitive local planning, coordination, and crisis response.",
+    "fiscal_year": [
+    2023,
+    2024,
+    2025
+    ],
+    "end": "2025-12-31",
+    "region_id": "RBAS",
+    "operating_unit_id": "SYR",
+    "operating_unit_email": "registry.sy@undp.org",
+    "budget": 9385167,
+    "expenditure": 3264374,
+    "start": "2023-01-01",
+    "document_name": [
+    [
+    "LPCR AWP",
+    "Annual budget 2023-24_01000282",
+    "Purchase Order Summary",
+    "Project Results",
+    "Activity Web Page",
+    "Project Document - Local Peace Building and Community Resillience"
+    ],
+    [
+    "https://undpngddlsprod01.blob.core.windows.net/pdc/01000282-PPM2023 AWP_OC2_Local Peace Buiding and community Resilience_V2_Signed.pdf",
+    "https://undpngddlsprod01.blob.core.windows.net/awp/01000282.pdf",
+    "http://open.undp.org/projects/01000282/po",
+    "http://open.undp.org/projects/01000282/results",
+    "http://open.undp.org/projects/01000282",
+    "https://undpngddlsprod01.blob.core.windows.net/pdc/01000282-PPMLocal Peacebuilding and Community Resilience prodoc_signed.pdf"
+    ],
+    [
+    "pdf",
+    "pdf",
+    "html",
+    "html",
+    "html",
+    "pdf"
+    ]
+    ],
+    "project_id": "01000282",
+    "project_title": "Local Peace Building and Community Resilience",
+    "outputs": [
+    {
+    "crs": "16080",
+    "output_descr": "Pillar II: Local Peace Building and community resilienceThe project will build on accumulated experience and channels to civic actors and local communities; to scale up piloted interventions to achieve :a)\tMore civic engagement beyond services provision; guided with a thorough strategy to materialize the 3Ps: Participation; Protection and Promotion.b)\tThematic capacitation for local communities, authorities and civic actors and organizations; to take meaningful participation in policy and decisi",
+    "output_id": "01000282",
+    "award_id": "01000282",
+    "output_title": "Local Peace Building and Community Resilience",
+    "crs_descr": "",
+    "donor_id": [
+    "000012",
+    "000038",
+    "000040",
+    "000141",
+    "010283",
+    "010602",
+    "010712",
+    "011227",
+    "011776",
+    "012711"
+    ],
+    "disbursement": [],
+    "focus_area": "21",
+    "gender_descr": "Gender Equality",
+    "budget": [
+    887862,
+    6105184,
+    2392121
+    ],
+    "fiscal_year": [
+    2025,
+    2024,
+    2023
+    ],
+    "gender_id": 1,
+    "expenditure": [
+    558121,
+    2270393,
+    435860
+    ],
+    "donor_short": [
+    "UNDP",
+    "UNOCHA",
+    "UNHCR",
+    "JPN",
+    "KFW",
+    "UN-HABITAT",
+    "KOICA",
+    "ITA MAE",
+    "UNTFHS",
+    "UNDP-FW"
+    ],
+    "donor_name": [
+    "UNITED NATIONS DEVELOPMENT PROGRAMME",
+    "United Nations Office for the Coordination of Humanitarian Affairs (UNOCHA)",
+    "UN HIGH COMMISSIONER FOR REFUGEES (UNHCR)",
+    "GOVERNMENT OF JAPAN",
+    "KREDITANSTALT FUR WIEDERAUFBAU",
+    "UN-HABITAT",
+    "KOREA INTERN. COOPERATION AGENCY",
+    "Italian Min. for Foreign Affairs",
+    "UN Tr Fund for Human Security",
+    "UNDP Funding Windows"
+    ],
+    "focus_area_descr": "Structural transformation, including green, inclusive and digital transitions",
+    "markers": [
+    {
+    "marker": "Digital",
+    "marker_type": [
+    "Output partially enabled through digital technology"
+    ]
+    },
+    {
+    "marker": "OECD DAC Sector",
+    "marker_type": [
+    "150 - Government & Civil Society",
+    "152 - Conflict, Peace & Security",
+    "160 - Other Social Infrastructure & Services"
+    ]
+    }
+    ],
+    "sdg": [
+    {
+    "id": "16",
+    "name": "Peace, justice, and strong institutions",
+    "budget": [
+    2389728.879,
+    2392599.4242,
+    6099078.816,
+    6106405.0368,
+    886974.138,
+    888039.5724
+    ],
+    "expenditure": [
+    435424.14,
+    435947.172,
+    2268122.607,
+    2270847.0786,
+    557562.879,
+    558232.6242
+    ],
+    "year": [
+    2023,
+    2023,
+    2024,
+    2024,
+    2025,
+    2025
+    ]
+    }
+    ]
+    }
+    ],
+    "operating_unit_website": "https://www.undp.org/syria",
+    "inst_id": "001981",
+    "inst_descr": "UNDP",
+    "inst_type_id": 40,
+    "iati_op_id": "SY",
+    "operating_unit": "Syria",
+    "subnational": [
+    {
+    "outputID": "01000282",
+    "output_locID": "01000282-1",
+    "name": "Aleppo",
+    "focus_area": "21",
+    "lat": "36.250000",
+    "type": "ADM1",
+    "lon": "37.616670",
+    "awardID": "01000282",
+    "precision": 1,
+    "focus_area_descr": "Structural transformation, including green, inclusive and digital transitions"
+    },
+    {
+    "outputID": "01000282",
+    "output_locID": "01000282-2",
+    "name": "Damascus",
+    "focus_area": "21",
+    "lat": "33.510200",
+    "type": "PPLC",
+    "lon": "36.291280",
+    "awardID": "01000282",
+    "precision": 2,
+    "focus_area_descr": "Structural transformation, including green, inclusive and digital transitions"
+    },
+    {
+    "outputID": "01000282",
+    "output_locID": "01000282-3",
+    "name": "Raqqa",
+    "focus_area": "21",
+    "lat": "35.872040",
+    "type": "ADM2",
+    "lon": "39.047060",
+    "awardID": "01000282",
+    "precision": 1,
+    "focus_area_descr": "Structural transformation, including green, inclusive and digital transitions"
+    },
+    {
+    "outputID": "01000282",
+    "output_locID": "01000282-4",
+    "name": "Latakia",
+    "focus_area": "21",
+    "lat": "35.566670",
+    "type": "ADM1",
+    "lon": "36.033330",
+    "awardID": "01000282",
+    "precision": 1,
+    "focus_area_descr": "Structural transformation, including green, inclusive and digital transitions"
+    }
+    ]
+    }
+    
