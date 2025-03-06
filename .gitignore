@@ -55,3 +55,5 @@ Taskfile.yml
 bun.lockb
 sdg_example.json
 /.logs
+/.task
+/.task
