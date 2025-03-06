@@ -45,6 +45,36 @@ python plot_sdg_distribution.py
 python compare_sdg_distributions.py
 ```
 
+### Analysis
+```bash
+# Analyze water projects data from 2023-2024
+python analyze_water_projects_2024.py
+
+# Compare original and transformed datasets
+python analyze_overlap.py
+
+# Analyze water-focused projects
+python water_focused_analysis.py
+```
+
+### UNDP Open Project Data
+```bash
+# Index all projects from 2023 onwards
+python index_undp_open_project_data/script.py
+
+# Run with test limit (30 projects)
+python index_undp_open_project_data/script.py --test-limit 30
+
+# Process projects from a specific year
+python index_undp_open_project_data/script.py --start-year 2022
+
+# Process a specific project by ID
+python index_undp_open_project_data/script.py --project-id 01000282
+
+# Deduplicate the water projects analysis CSV
+python index_undp_open_project_data/deduplicate_csv.py
+```
+
 ## Input Requirements
 - Project data files in CSV format
 - SDG reference data
@@ -61,6 +91,9 @@ python compare_sdg_distributions.py
 - matplotlib
 - numpy
 - seaborn (for some visualizations)
+- azure-ai-language-questionanswering (for classification)
+- requests (for API access)
+- python-dotenv (for environment variables)
 
 ## Configuration
 Scripts use configuration files in their respective directories for customizable parameters such as:

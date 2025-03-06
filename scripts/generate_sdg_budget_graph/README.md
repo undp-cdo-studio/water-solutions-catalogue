@@ -25,6 +25,20 @@ The module produces:
 2. Optional exported CSV data
 
 ## Usage
+```bash
+# Generate SDG budget visualizations
+python script.py
+
+# Generate with custom input file
+python script.py --input-file path/to/input.csv
+
+# Generate with custom output directory
+python script.py --output-dir path/to/output
+
+# Generate with custom title
+python script.py --title "Custom Visualization Title"
+```
+
 This will:
 1. Process the budget data
 2. Generate visualizations with official SDG iconography

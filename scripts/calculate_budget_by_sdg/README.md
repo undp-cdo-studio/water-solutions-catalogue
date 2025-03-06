@@ -23,6 +23,17 @@ The script generates:
 2. Optional metadata files with project counts and processing details
 
 ## Usage
+```bash
+# Run the budget calculation script
+python script.py
+
+# Run with custom input file
+python script.py --input-file path/to/input.csv
+
+# Run with custom output directory
+python script.py --output-dir path/to/output
+```
+
 This will:
 1. Process the raw project data
 2. Calculate budget allocation by SDG

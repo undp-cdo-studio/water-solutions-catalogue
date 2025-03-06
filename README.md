@@ -26,22 +26,58 @@ The project includes various Python scripts for data processing, analysis, and v
 ## Getting Started
 
 ### Prerequisites
-- Node.js (v14 or higher)
 - Python 3.x
-- Required Python packages: pandas, matplotlib
+- Required Python packages: pandas, matplotlib, seaborn, openpyxl, azure-ai-language-questionanswering, requests, python-dotenv
+- Node.js and npm (for web interface)
 
 ### Installation
 ```bash
-# Install dependencies
-make install
+# Create and activate a virtual environment
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
-# Start development server
-make dev
+# Install required Python packages
+pip install -r requirements.txt
+
+# Install Node.js dependencies (for web interface)
+npm install
 ```
 
-### Usage
-1. Access web interface:
-   Open [http://localhost:3000](http://localhost:3000)
+### Running Scripts
+```bash
+# Index UNDP Open Project Data (all projects from 2023 onwards)
+python scripts/index_undp_open_project_data/script.py
+
+# Run with test limit (30 projects)
+python scripts/index_undp_open_project_data/script.py --test-limit 30
+
+# Process projects from a specific year
+python scripts/index_undp_open_project_data/script.py --start-year 2022
+
+# Process a specific project by ID
+python scripts/index_undp_open_project_data/script.py --project-id 01000282
+
+# Deduplicate the water projects analysis CSV
+python scripts/index_undp_open_project_data/deduplicate_csv.py
+
+# Extract specific projects from a list
+python scripts/index_undp_open_project_data/script.py --extract-only --project-ids-file data/project_ids_list.txt --extract-output data/extracted_water_projects.csv
+
+# Process projects from a list file
+python scripts/index_undp_open_project_data/script.py --project-ids-file data/project_ids_list.txt --extract-output data/extracted_water_projects.csv
+```
+
+### Running the Web Interface
+```bash
+# Development mode
+npm run dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
+```
 
 ## Data Analysis
 
@@ -55,33 +91,15 @@ make dev
 - Second highest: SDG 6 (Clean Water and Sanitation)
 - Third highest: SDG 1 (No Poverty)
 
-## Development
-
-### Available Commands
-- `make install`: Install dependencies
-- `make dev`: Start development server
-- `make build`: Build the application
-- `make start`: Start production server
-- `make clean`: Remove build artifacts
-- `make lint`: Run linter
-- `make rebuild`: Full clean and rebuild
-
 ## Documentation
 - [SDG Budget Analysis](data/projects/README.md)
 - [Scripts Documentation](scripts/README.md)
 
 ## Technical Stack
-- Next.js for web interface
 - Python for data processing
 - Matplotlib for visualizations
 - Pandas for data analysis
-
-## Deployment
-Deploy using Vercel:
-```bash
-make build
-vercel deploy
-```
+- Next.js for web interface
 
 ## License
 [Add appropriate license information]

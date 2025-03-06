@@ -31,47 +31,47 @@ The script generates a CSV file with the following structure:
 - Project start and end dates
 
 ## Usage
-The script can be run in several ways using the Taskfile:
+The script can be run in several ways using standard Python commands:
 
 ### Basic Indexing
-```
-task index
+```bash
+python script.py
 ```
 This will fetch all projects from 2023 onwards and process them.
 
 ### Test Mode
-```
-task index-test
+```bash
+python script.py --test-limit 30
 ```
 This will process only 30 projects for testing purposes.
 
 ### Custom Start Year
-```
-task index-custom START_YEAR=2022
+```bash
+python script.py --start-year 2022
 ```
 This will process projects from 2022 onwards.
 
 ### Specific Project
-```
-task index-project PROJECT_ID=01000282
+```bash
+python script.py --project-id 01000282
 ```
 This will process only the specified project ID.
 
 ### Deduplication
-```
-task deduplicate-csv
+```bash
+python deduplicate_csv.py
 ```
 This will deduplicate the water_projects_analysis.csv file based on project_url, removing duplicate entries where multiple rows share the same project_url. The original file is backed up before deduplication.
 
 ### Extract Projects
-```
-task extract-projects
+```bash
+python script.py --extract-only --project-ids-file data/project_ids_list.txt --extract-output data/extracted_water_projects.csv
 ```
 This will extract specified projects from the water_projects_analysis.csv file based on a list of project IDs in data/project_ids_list.txt. The extracted projects will be saved to data/extracted_water_projects.csv.
 
 ### Process Project List
-```
-task process-project-list
+```bash
+python script.py --project-ids-file data/project_ids_list.txt --extract-output data/extracted_water_projects.csv
 ```
 This will process projects from a list file (data/project_ids_list.txt), add missing ones by fetching them from the API, and extract all to a new CSV file (data/extracted_water_projects.csv).
 
